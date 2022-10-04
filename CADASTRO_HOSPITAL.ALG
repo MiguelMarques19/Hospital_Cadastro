@@ -3,7 +3,7 @@ var
    nome: vetor [1..100] de caractere
    idade: vetor [1..100] de inteiro
    quarto: vetor [1..100] de inteiro
-   problema: vetor [1..100] de caractere
+   descricao: vetor [1..100] de caractere
    vezes, cont: inteiro
 inicio
    Escreval ("------------------")
@@ -19,11 +19,12 @@ inicio
       Escreval ("QUARTO:")
       Leia (quarto[cont])
       Escreval ("PROBLEMA:")
-      Leia (problema[cont])
+      Leia (descricao[cont])
    FimPara
    Limpatela
    Escreval ("NOME:", nome[cont])
    Escreval ("IDADE:", idade[cont])
    Escreval ("QUARTO:", quarto[cont])
-   Escreval ("PROBLEMA:", problema[cont])
+   Escreval ("PROBLEMA:", descricao[cont])
+   Escreval ( )
 fimalgoritmo
