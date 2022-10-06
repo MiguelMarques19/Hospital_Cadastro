@@ -19,18 +19,17 @@ inicio
    Escolha op
    caso 1
       Repita
-         Para cont de 1 ate 1 faca
-            Escreval ("NOME:")
-            Leia (nome[cont])
-            Escreval ("IDADE:")
-            Leia (idade[cont])
-            Escreval ("QUARTO:")
-            Leia (quarto[cont])
-            Escreval ("DESCRIÇÃO:")
-            Leia (descricao[cont])
-         FimPara
+         Escreval ("NOME:")
+         Leia (nome[cont])
+         Escreval ("IDADE:")
+         Leia (idade[cont])
+         Escreval ("QUARTO:")
+         Leia (quarto[cont])
+         Escreval ("DESCRIÇÃO:")
+         Leia (descricao[cont])
          Escreval ("Deseja informar outro paciente")
          Escreval ("[1]SIM / [2]NÃO")
+         Leia (sn)
       Ate (sn = 2)
    caso 2
 
@@ -41,6 +40,6 @@ inicio
    Outrocaso
       Escreval ("Número incorreto")
    FimEscolha
-   Escreval ("oi")
+   Escreval (nome[cont])
 
 Fimalgoritmo
